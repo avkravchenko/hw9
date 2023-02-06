@@ -71,8 +71,10 @@ const resultTwo = createStudentObject(studentNodes[1]);
 console.log(resultOne);
 console.log(resultTwo);
 
+const arr = [resultOne, resultTwo];
 
+const obj = {
+    list: arr
+};
 
-const list = [resultOne, resultTwo];
-
-console.log(list);
+console.log(obj);
