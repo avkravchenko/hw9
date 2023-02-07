@@ -20,7 +20,7 @@
     <prof>driver</prof>
   </student>
 </list>
-*/
+
 
 const parser = new DOMParser();
 const xml = `
@@ -78,3 +78,4 @@ const obj = {
 };
 
 console.log(obj);
+ */
