@@ -9,57 +9,6 @@
 
  */
 
-/* const log = console.log;
-
-const btn = document.querySelector('#btn');
-const output = document.querySelector('.after-form');
-
-
-
-
-
-
-function xttpr(url, callback){
-    const request = new XMLHttpRequest();
-    request.open('GET', url, true);
-    request.onload = function(){
-        if (request.status !== 200){
-            console.log(`Статус ответа: ${request.status}`)
-        } else {
-            const res = JSON.parse(request.response)
-            if (callback){
-                callback(res);
-            }
-            console.log('xex')
-        }
-    }
-    request.onerror = function(){
-        console.log(`Ошибка. Статус ошибки: ${request.status}`)
-    }
-}
-
-function displayRes(apiData){
-    const cards = '';
-    apiData.forEach(item => {
-        const cardBlock = `
-        <div class="card">
-            <img 
-                src=${item.download_url}
-                class="card-img">
-            <p>author: ${item.author}</p>
-        </div>
-        `   
-        cards = cards + cardBlock;
-    });
-    output.innerHTML = cards;
-}
-
-
-btn.addEventListener('click', () => {
-    xttpr("https://picsum.photos/v2/list?limit=5", displayRes)
-})
- */
-
 const log = console.log;
 
 const btn = document.querySelector('#btn');
