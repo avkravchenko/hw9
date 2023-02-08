@@ -102,11 +102,13 @@ function displayRes(apiData){
 
 
 btn.addEventListener('click', () => {
-    let userInput = document.getElementById("numbers").value;
+    let userInput = +document.getElementById("numbers").value;
+    log(userInput)
     if (userInput < 1 || userInput > 10) {
         output.innerHTML = "<p>The number doesn't fit. Please write a number between 1 - 10</p>"
+    } else if (isNaN(userInput)){
+        output.innerHTML = '<p>Please enter a number</p>';
     } else {xttpr(`https://picsum.photos/v2/list?limit=${userInput}`, displayRes)}
-    
 })
 
 const button = document.getElementById("button");

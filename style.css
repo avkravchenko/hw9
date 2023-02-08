@@ -73,11 +73,6 @@ label {
     padding: 26px;
 }
 
-#numbers:focus-visible{
-    background-color: none;
-}
-
-
 .input-tab {
     margin: 100px;
     padding: 50px;
