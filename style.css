@@ -74,7 +74,7 @@ label {
 }
 
 .input-tab {
-    margin: 100px;
+    margin: 100px auto;
     padding: 50px;
     background-color: aliceblue;
     height: auto;
@@ -90,3 +90,6 @@ label {
     border-radius: 10px;
 }
 
+:focus-visible {
+    outline: none
+}
