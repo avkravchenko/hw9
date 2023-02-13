@@ -93,3 +93,31 @@ label {
 :focus-visible {
     outline: none
 }
+
+.task4{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 300px;
+    background-color: rgb(198, 239, 251);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#btn-task4 {
+    max-width: 300px;
+    width: 300px;
+}
+
+.after-form-task4{
+    color: rgb(229, 144, 144);
+    margin-top: 30px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+}
+
