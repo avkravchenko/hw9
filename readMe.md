@@ -5,24 +5,29 @@
 
  XML:
 
-<code><list>
-  <student>
-    <name lang="en">
-      <first>Ivan</first>
-      <second>Ivanov</second>
-    </name>
-    <age>35</age>
-    <prof>teacher</prof>
-  </student>
-  <student>
-    <name lang="ru">
-      <first>Петр</first>
-      <second>Петров</second>
-    </name>
-    <age>58</age>
-    <prof>driver</prof>
-  </student>
-</list></code>
+<pre>
+  <code>
+    &lt;list&gt;
+      &lt;student&gt;
+        &lt;name lang="en"&gt;
+          &lt;first&gt;Ivan&lt;/first&gt;
+          &lt;second&gt;Ivanov&lt;/second&gt;
+        &lt;/name&gt;
+        &lt;age&gt;35&lt;/age&gt;
+        &lt;prof&gt;teacher&lt;/prof&gt;
+      &lt;/student&gt;
+      &lt;student&gt;
+        &lt;name lang="ru"&gt;
+          &lt;first&gt;Петр&lt;/first&gt;
+          &lt;second&gt;Петров&lt;/second&gt;
+        &lt;/name&gt;
+        &lt;age&gt;58&lt;/age&gt;
+        &lt;prof&gt;driver&lt;/prof&gt;
+      &lt;/student&gt;
+    &lt;/list&gt;
+  </code>
+</pre>
+
 JS-объект:
 
 {
@@ -36,7 +41,7 @@ JS-объект:
 Задание 2.
 Вам дана заготовка и результат, который вы должны получить. Ваша задача — написать код, который будет преобразовывать JSON в JS-объект и выводить его в консоль.
 
-<!--JSON:
+JSON:
 
 {
  "list": [
@@ -59,7 +64,7 @@ JS-объект:
     { name: 'Petr', age: 20, prof: 'mechanic' },
     { name: 'Vova', age: 60, prof: 'pilot' },
   ]
-}-->
+}
 
 Задание 3
 Напишите код приложения, интерфейс которого представляет собой input и кнопку. В input можно ввести любое число. При клике на кнопку происходит следующее:
