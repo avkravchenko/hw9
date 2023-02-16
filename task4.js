@@ -9,13 +9,13 @@
 Пример. Если пользователь ввёл 150 и 200, то запрос будет вида https://picsum.photos/150/200.
 После получения данных вывести ниже картинку на экран.
 
- */
+
 
 const input1 = document.querySelector('#width');
 const input2 = document.querySelector('#height');
 const submit = document.querySelector('#btn-task4');
 const visibleResult = document.querySelector('.after-form-task4');
-const img = document.querySelector('#img');
+const img = document.querySelector('#img-task4');
 
 submit.addEventListener('click', () => {
     let widthValue = input1.value;
@@ -55,8 +55,7 @@ document.addEventListener('keydown', (e) => {
     }
 })
 
-
-
+*/
 
 
 

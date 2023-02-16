@@ -121,3 +121,14 @@ img{
     margin: 20px auto;
 }
 
+.after-form-task5{
+    max-width: 100vw;
+    order: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.task5{
+    margin: 30px auto;
+}
