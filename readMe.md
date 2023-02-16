@@ -5,7 +5,7 @@
 
  XML:
 
-<!--<list>
+<code><list>
   <student>
     <name lang="en">
       <first>Ivan</first>
@@ -22,7 +22,7 @@
     <age>58</age>
     <prof>driver</prof>
   </student>
-</list>
+</list></code>
 JS-объект:
 
 {
