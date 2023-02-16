@@ -1,5 +1,3 @@
-/* Если пользователь перезагрузил страницу, то ему должны показываться картинки из последнего успешно выполненного запроса (использовать localStorage). */
-
 
 const inputPage = document.querySelector('#input-page');
 const inputLimit = document.querySelector('#input-limit');
